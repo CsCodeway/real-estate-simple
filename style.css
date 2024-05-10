@@ -326,3 +326,9 @@ h6 {
     gap: 0;
   }
 }
+@media only screen and (max-width: 440px) {
+  .projects-artboard {
+    height: 7rem;
+    width: 7rem;
+  }
+}
