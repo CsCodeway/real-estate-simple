@@ -265,6 +265,7 @@ h6 {
   .projects-wrapper {
     display: flex;
     flex-direction: column-reverse;
+    position: relative;
   }
   .projects-img {
     clip-path: none;
@@ -278,7 +279,9 @@ h6 {
     border-bottom-right-radius: 0;
   }
   .projects-artboard {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .projects-para {
     width: 100%;
